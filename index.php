@@ -13,7 +13,7 @@
 
     $url=$_SERVER['REQUEST_URI'];
 
-    $varmi=strstr($url,"?id");  // EĞER URL ?id var ise içerik getirilecektir.
+    $varmi=strstr($url,"?id");  // EĞER URLde ?id var ise içerik getirilecektir.
 
     if($_REQUEST && $varmi){
 
