@@ -111,7 +111,7 @@ if($_REQUEST && $varmi){
 
     $y->close();
 
-    // BU KISIMDA İSE DB DEN ÇEKİLEN RESİM YOLLARI PARÇALANIP KAYNKA PATH LER ELDE EDİLİYOR
+    // BU KISIMDA İSE DB DEN ÇEKİLEN RESİM YOLLARI PARÇALANIP KAYNAK PATH LER ELDE EDİLİYOR
 
     $resim1path=substr($resim1,3,strlen($resim1)-0);
     $resim2path=substr($resim2,3,strlen($resim2)-0);
